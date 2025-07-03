@@ -4,19 +4,20 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
        
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("quale numero vuoi stampare:");
-        int numeroTabellina = scanner.nextInt();
+        int numeroTabellina = scan.nextInt();
 
         System.out.println("fino a che numero vuoi arrivare:");
-        int numeroFineTabellina = scanner.nextInt();
+        int numeroFineTabellina = scan.nextInt();
 
         for (int i=0 ; i <= numeroFineTabellina; i++) {
            int risultato = numeroTabellina * i;
            System.out.println(numeroTabellina + " * " + i + " = " + risultato);
 
-            
+
+
         }
 
 
